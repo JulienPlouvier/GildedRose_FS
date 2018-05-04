@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GildedRose", "GildedRose\GildedRose.fsproj", "{2660EF56-B4C1-4DCF-B106-278211BD26C6}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GildedRose.Tests", "GildedRose.Tests\GildedRose.Tests.fsproj", "{9F9D20E1-CFC0-442C-870A-76E5ABF0E7FE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Core", "Core\Core.fsproj", "{A08D1448-0B7F-433B-92A2-08B0F8FB1E52}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Tests\Tests.fsproj", "{AAF7CC78-2065-4C2F-97AB-1BFA6E427F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,19 @@ Global
 		{9F9D20E1-CFC0-442C-870A-76E5ABF0E7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F9D20E1-CFC0-442C-870A-76E5ABF0E7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F9D20E1-CFC0-442C-870A-76E5ABF0E7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08D1448-0B7F-433B-92A2-08B0F8FB1E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08D1448-0B7F-433B-92A2-08B0F8FB1E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08D1448-0B7F-433B-92A2-08B0F8FB1E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08D1448-0B7F-433B-92A2-08B0F8FB1E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF7CC78-2065-4C2F-97AB-1BFA6E427F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF7CC78-2065-4C2F-97AB-1BFA6E427F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF7CC78-2065-4C2F-97AB-1BFA6E427F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF7CC78-2065-4C2F-97AB-1BFA6E427F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CDA2D2C-D872-4E6D-8F12-7894023F7002}
 	EndGlobalSection
 EndGlobal

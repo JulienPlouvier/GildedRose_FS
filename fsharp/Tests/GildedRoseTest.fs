@@ -6,7 +6,8 @@ open System.IO
 open System.Text
 open System.Collections.Generic
 open Xunit
-open FsUnit.Xunit
+
+let shouldEqual expected actual = Assert.Equal(expected, actual)
 
 type GildedRoseTest () as this =
     [<Fact>] member this.Foo ()=
@@ -14,7 +15,7 @@ type GildedRoseTest () as this =
         Items.Add({Name = "fixme"; SellIn = 0; Quality = 0})
         let app = new GildedRose(Items)
         app.UpdateQuality()
-        Items.[0].Name |> should equal "fixme" 
+        Items.[0].Name |> shouldEqual "fixme" 
 
 //type ApprovalTest () as this =
 //    [<Test>] member this.ThirtyDays ()=
